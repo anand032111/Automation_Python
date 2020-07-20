@@ -36,6 +36,7 @@ class LoginTest(unittest.TestCase):
     def tearDownClass(cls):
         cls.driver.close()
         cls.driver.quit()
+print("hello jenkins")        
 
 
 
